@@ -6,8 +6,7 @@ class Panel extends Component {
 
     return (
       <section
-        className="dashboard__panel"
-        onClick={onSelect}>
+        className="dashboard__panel" onClick={onSelect}>
         <h1 className="dashboard__panel-header">{label}</h1>
         <p classname="dashboard__panel-value">{value}</p>
       </section>
